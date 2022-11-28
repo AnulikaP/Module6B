@@ -1,0 +1,461 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+/* HEADER STYLES */
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:10px;
+    padding: 10px;
+    align-items: center;  
+}
+.container .search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px; 
+    width: 550px;
+    color: rgb(114, 111, 111);
+    background-color:rgb(247,249,250) ;
+}
+.container .search img{
+    margin-right: 15px;
+    color: rgb(114, 111, 111);
+}
+#searchbar{
+    border-style: none;
+    padding: 10px; 
+    padding: 10px; 
+    background-color:rgb(247,249,250) ;
+
+}
+#log{
+    padding: 10px;
+    width:80px ;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+#sign{
+    padding: 10px;
+    width: 80px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+#globe-img{
+    border: 1px solid;
+    padding: 8px
+    
+}
+/* SECTION ONE STYLES */
+.search-two img{
+    position: relative;
+    
+}
+.bfriday{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    background-color: white;
+    border: 1px solid;
+    border-style: none;
+    width: 420px;
+    height: 130px;
+    padding: 20px;
+
+}
+.bfriday h1{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+/* SECTION THREE STYLES */
+.sec_three .intro h1{
+    font-size: 2.5rem;
+    margin: 35px 0 10px 15px;
+    
+}
+.sec_three .intro p{
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    
+}
+.sec_three .courses ul{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5cm;
+    list-style-type: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18;
+    margin-left: 10px;
+    color: rgb(89, 88, 88);
+
+}
+#pyt{
+    color: black;
+}
+.python{
+    border: 1px solid;
+    margin: 15px;
+    border-color: rgb(166, 163, 163);
+}
+.python .extra{
+    margin: 40px;
+
+    
+}
+.python .extra p{
+  margin-top: 30px;
+  font-size: 18px;
+
+}
+.python h3{
+    border: 1px solid;
+    border-color: rgb(15, 14, 14);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0px 8px 15px;
+    width: 150px;
+    height: 50px;
+    margin-left: 40px;
+}
+
+span {
+    text-decoration: line-through;
+    color: rgb(179, 176, 176);
+    font-weight: lighter;
+}
+.course_flow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    line-height: 0.5cm;
+}
+.course_flow{
+    position: relative;
+
+}
+.course_flow .scroll1{
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    z-index: 1;
+    border: 1px solid;
+    background-color: black;
+    border-color: rgb(224, 194, 139);
+    padding: 10px;
+    border-radius: 30px;
+}
+.course_flow p{
+    font-size: 12px;
+    color: gray;
+}
+.coursecard-list{
+    line-height: 0.5cm;
+}
+.coursecard h2{
+    padding: 10px;
+}
+
+.coursecard .coursecard-list{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 10px;
+
+}
+.coursecard-list p{
+    font-size: 12px;
+    color: gray;
+}
+.coursecard{
+    position: relative;
+}
+.coursecard .scroll{
+    position: absolute;
+    top: 30%;
+    right: 2%;
+    z-index: 1;
+    border: 1px solid;
+    background-color: black;
+    border-color: rgb(224, 194, 139);
+    padding: 10px;
+    border-radius: 30px;
+}
+#kidscode img{
+    height: 140px;
+
+}
+h6{
+    border: 1px solid;
+    width: 60px;
+    padding: 5px;
+    background-color:rgb(236,235,152) ;
+    border-style: none;
+}
+/* SECTION FOUR STYLE */
+.advert{
+   display: flex;
+   flex-direction: row;
+   align-content: center;
+   justify-content: center;
+   align-items: center;
+   list-style-type: none;
+   background-color:rgb(247,249,250) ;
+   padding: 15px;
+   margin: 30px 0px;
+   font-weight: bolder;
+   font-size: 18px;
+}
+.advert img{
+    border: 1px solid;
+    border-radius: 50px;
+    border-style: none;
+    padding: 5px;
+    background-color:rgb(209,215,220) ;
+
+}
+.top-cat h1{
+    padding: 10px;
+    margin-left: 20px;
+}
+.flex1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1cm;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.flex1 p{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.flex1 img{
+    
+}
+/* SECTION FIVE STYLES */
+.container5{
+    background-color: rgb(247,249,250);
+    padding: 5px;
+    margin-top: 30px;
+
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 30px;
+ 
+}
+.container5 .explore{
+    border: 1px solid;
+    width: 170px;
+    margin: 30px;
+    padding: 10px;
+    font-weight: bold;
+}
+.container5 h3{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 10px;
+
+}
+.flexbox h4{
+    font-weight: bold;
+    font-size: 22px;
+    padding:30px 0;
+
+
+}
+.flexbox a{
+    font-size:18px ;
+    font-weight: bolder;
+    margin-top: 10px;
+    color:rgb(86,36,208) ;
+    line-height: 1cm;
+    
+}
+.flexbox p{
+    color: rgb(166, 151, 151);
+    font-size: 14px;
+}
+/* SECTION SIX STYLES */
+.container6{
+    padding: 20px;
+    margin-top: 50px;
+}
+.container6 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 10px;
+}
+.container6 .sponsor{
+    text-align: center;
+    line-height: 1cm;
+}
+.sponsor p{
+    font-size: 18px;
+    color: rgb(93, 91, 91);
+}
+/* SECTION SEVEN STYLES */
+.container7{
+    margin-top: 80px;
+}
+.flex2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2cm;
+
+}
+.upskill{
+    line-height: 1cm;
+}
+.upskill h1{
+    font-weight: bold;
+    font-size: 2rem;
+}
+#btn{
+    color: white;
+    background-color: black;
+    padding: 15px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+#btn2{
+    color: black;
+    background-color: white;
+    padding: 15px;
+    margin-top: 10px;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+
+
+.flex2 .happy-pic{
+   height: 400px;
+}
+.flex2 .ulogo{
+    width: 200px;
+}
+.flex2 ul{
+    font-size: 22px;
+    margin-left: 20px;
+
+}
+/* SECTION EIGHT STYLES */
+.container8{
+    margin-top: 60px;
+    padding: 50px;
+}
+.flex3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:2cm ;
+}
+.flex3 h1{
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+.flex3 img{
+    margin-left: 80px;
+}
+.flex3 p{
+    font-size: 24px;
+}
+.flex3 .btn4{
+    border: 1px solid;
+    padding: 15px;
+    margin: 10px;
+    font-size: 16px;
+    margin-right: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+/* FOOTER STYLES */
+.footer{
+    height: 50vh;
+    background-color:rgb(28,29,31) ;
+    color: white;
+    font-weight: bold;
+    padding: 30px;
+    
+}
+.footer .flex4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flex4 ul{
+    list-style-type: none;
+    line-height: 1cm;
+    
+}
+.flex4 a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 14px;
+    gap: 1cm;  
+}
+.btn5{
+    border: 1px solid;
+    border-color: white;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+}
+.btn5 img{
+    margin-top: 10px;
+    height: 15px;
+}
+.btn5 p{
+    margin-bottom: 10px;
+}
+.copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+.copyright img{
+    height: 35px;
+    
+}
+.copyright p{
+    font-size: 12px;
+}
+#nospan{
+    text-decoration: none;
+    color: white;  
+}
+
+
+
+
+
+
+
+
+
